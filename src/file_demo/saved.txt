@@ -1,0 +1,14 @@
+package file_demo;
+
+import java.io.File;
+import java.io.IOException;
+
+public class File_02 {
+	public static void main(String[] args) throws IOException {
+		// 목표 파일 객체 생성
+		File dir = new File("D:\\java_401\\Day_19\\src\\file_demo");
+		File file = new File(dir, "a.txt");
+
+		// file을 대상으로 하여 입력 또는 출력을 진행
+	}
+}
